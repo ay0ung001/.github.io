@@ -4,12 +4,12 @@
   font-family: 'Libre Baskerville', serif;
 }
   
-/* start Home */
-.header
+/* start about */
+.about
 {
   min-height: 100vh;
   width: 100%;
-  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("images/banner.png");
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("images/forest.png");
   background-position: center;
   background-size: cover;
   position: relative;
@@ -58,4 +58,50 @@ nav
 .links ul li:hover::after
 {
   width: 100%;
+}
+
+.text1
+{
+  width: 90%;
+  color: #ffffff;
+  position: absolute;
+  left: 50%;
+  bottom: 30%;
+  top: 35%;
+  transform: translate(-50%, -50%); 
+  text-align: center; 
+}
+
+.text-box1 h1
+{
+  font-size: 25px;
+  margin-bottom: 1em;
+}
+
+.languages
+{ 
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("images/ocean.png");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.text2
+{
+  width: 90%;
+  color: #ffffff;
+  position: absolute;
+  left: 50%;
+  bottom: 30%;
+  top: 35%;
+  transform: translate(-50%, -50%); 
+  text-align: center; 
+}
+
+.text-box2 h1
+{
+  font-size: 25px;
+  margin-bottom: 1em;
 }
